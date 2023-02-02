@@ -37,4 +37,4 @@ This directory contains task projects on the basic introduction to python progra
               9 BINARY_POWER
              10 BINARY_ADD
              11 RETURN_VALUE
-	```
+```
