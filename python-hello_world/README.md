@@ -1,6 +1,6 @@
 #  Python - Hello, World
 
-This directory contains task projects based on the basic introduction of the python programming language.
+This directory contains task projects on the basic introduction to python programming language.
 
 ## Tasks :page_with_curl:
 
@@ -14,28 +14,27 @@ This directory contains task projects based on the basic introduction of the pyt
 
 **Task-4**: The [4-print_float.py](./4-print_float.py) contain a program that prints the float stored in the variable `number` with a precision of 2 digits.
 
-**Task-5**: The [5-listfilesdigitonly](./5-listfilesdigitonly) file contains a script on how to display directory contents with user and group ids displayed numerically, showing hidden files in long format.
+**Task-5**: The [5-print_string.py](./5-print_string.py) file contains a program that prints 3 times a string stored in the variable `str`, followed by its first 9 characters.
 
-**Task-6**: The [6-firstdirectory](./6-firstdirectory) file contains a script that creates a directory named `my_first_directory` in the `/tmp/` directory.
+**Task-6**: The [6-concat.py](./6-concat.py) file contains a script that prints `Welcome to Holberton School!`
 
-**Task-7**: The [7-movethatfile](./7-movethatfile) file displays a script to move the file `betty` from `/tmp/` to `/tmp/my_first_directory`.
+**Task-7**: The [7-edges.py](./7-edges.py) file contains a script that print excluded characters of a given string.
 
-**Task-8**: The [8-firstdelete](./8-firstdelete) file displays a script to delete the file `betty`.
+**Task-8**: The [8-concat_edges.py](./8-concat_edges.py) file contains a script to to print `object-oriented programming with Python`, followed by a new line.
 
-**Task-9**: The [9-firstdirdeletion](./9-firstdirdeletion) file displays a script to delete the directory `my_first_directory` that is in the `/tmp` directory.
+**Task-9**: The [9-easter_egg.py](./9-easter_egg.py) file contains a script that prints “The Zen of Python”, by TimPeters, followed by a new line.
 
-**Task-10**: The [10-back](./10-back) file contains script that changes the working directory to the previous one.
+**Task-10**: The [100-write.py](./100-write.py) file contains a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line without using the `print()` function.
 
-**Task-11**: The [11-lists](./11-lists) file contains a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
+**Task-11**: The [101-compile](./101-compile) file contains a script that compiles a Python script file.
 
-**Task-12**: The [12-file_type](./12-file_type) contains a script that prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when the script is run.
+**Task-12**: The [102-magic_calculation.py](./102-magic_calculation.py) is a script that contains the Python function `def magic_calculation(a, b)`: that does exactly the same as the following Python bytecode:
 
-**Task-13**: The [13-symbolic_link](./13-symbolic_link) contains a script that creates a symbolic link to `/bin/ls`, named `__ls__`.
-
-**Task-14**: The [14-copy_html](./14-copy_html) file contains a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-
-**Task-15**: The [100-lets_move](./100-lets_move) file contains a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`.
-
-**Task-16**: The [101-clean_emacs](./101-clean_emacs) file contains a script that deletes all files in the current working directory that end with the character `~`.
-
-**Task-17**: The [102-tree](./102-tree) file contains a script that creates the directories `welcome/`, `welcome/to/` and `welcome/to/school` in the current directory.
+```sh
+	 3           0 LOAD_CONST               1 (98)
+              3 LOAD_FAST                0 (a)
+              6 LOAD_FAST                1 (b)
+              9 BINARY_POWER
+             10 BINARY_ADD
+             11 RETURN_VALUE
+	```
