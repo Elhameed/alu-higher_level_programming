@@ -55,7 +55,7 @@ The project presented a challenge due to the numerous concepts that needed to be
 **Task-6**: The [6-print_comb3.py](./6-print_comb3.py) file contains a program that prints all possible different combinations of two digits with `01` and `10` being considered the same combination of the two digits `0` and `1`. The output should be:
 ```sh
 	guillaume@ubuntu:~/$ ./6-print_comb3.py
-	01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 	68, 69, 78, 79, 89
+	01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
 	guillaume@ubuntu:~/$ 
 ```
 
