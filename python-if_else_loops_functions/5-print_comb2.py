@@ -2,6 +2,7 @@
 
 for num in range(0,100):
     if (num != 99):
-        print("{:02d}, " .format(num), end="")
+        print("{:02d}".format(num), end=", ")
     else:
-        print("{:02d}" .format(num), end="\n")
+        print("{:02d}".format(num), end="\n")
+
