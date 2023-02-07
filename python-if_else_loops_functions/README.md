@@ -13,7 +13,7 @@ The project presented a challenge due to the numerous concepts that needed to be
 
 ## Tasks :page_with_curl:
 
-**Task-0**: The [0-positive_or_negative.py](./0-positive_or_negative.py) file contains an update to the [source code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py) that prints whether the number stored in the variable `number` is positive or negative.
+**Task-0**: The [0-positive_or_negative.py](./0-positive_or_negative.py) file contains an update to the [source code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py target="_blank") that prints whether the number stored in the variable `number` is positive or negative.
 
 **Task-1**: The [1-last_digit.py](./1-last_digit.py) file contains an update to the [source code](https://github.com/holbertonschool/0x01.py/blob/master/1-last_digit_py) that prints the last digit of the number stored in the variable `number`
 
