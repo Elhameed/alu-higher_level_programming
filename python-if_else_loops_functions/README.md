@@ -9,7 +9,7 @@ In this project, I was able to learn about various concepts such as:
 * How to use the `break` and `continues` statements
 * How to use `range` etc.
 
-
+The project presented a challenge due to the numerous concepts that needed to be covered. However, the experience was also intriguing as I discovered several fascinating new concepts in Python.
 
 ## Tasks :page_with_curl:
 
