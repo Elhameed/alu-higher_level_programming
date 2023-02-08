@@ -59,3 +59,22 @@ The project presented a challenge due to the numerous concepts that needed to be
 	guillaume@ubuntu:~/$ 
 ```
 
+**Task-7**: The [7-islower.py](./7-islower.py) file contains a function that checks for lowercase character.
+
+**Task-8**: The [7-islower.py](./7-islower.py) file contains a function that checks for lowercase character.
+
+**Task-9**: The [8-uppercase.py](./8-uppercase.py) file contains a function that prints a string in uppercase followed by a new line.
+
+**Task-10**: The [9-print_last_digit.py](./9-print_last_digit.py) file contains a function that prints the last digit of a number.
+
+**Task-11**: The [10-add.py](./10-add.py) file contains a function that adds two integers and returns the result.
+
+**Task-12**: The [11-pow.py](./11-pow.py) file contains a function that computes `a` to the power of `b` and return the value.
+
+**Task-13**: The [12-fizzbuzz.py](./12-fizzbuzz.py) file contains a function that prints the numbers from 1 to 100 separated by a space.
+	** For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`.
+	** For numbers which are multiples of both three and five print `FizzBuzz`.
+
+**Task-14**: The [9-print_last_digit.py](./9-print_last_digit.py) file contains a function that prints the last digit of a number.
+
+**Task-15**: The [9-print_last_digit.py](./9-print_last_digit.py) file contains a function that prints the last digit of a number.
