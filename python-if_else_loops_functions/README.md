@@ -75,6 +75,34 @@ The project presented a challenge due to the numerous concepts that needed to be
 - For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`.
 - For numbers which are multiples of both three and five print `FizzBuzz`.
 
-**Task-14**: The [9-print_last_digit.py](./9-print_last_digit.py) file contains a function that prints the last digit of a number.
+**Task-14**: The [100-print_tebahpla.py](./100-print_tebahpla.py) file contains a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
 
-**Task-15**: The [9-print_last_digit.py](./9-print_last_digit.py) file contains a function that prints the last digit of a number.
+**Task-15**: The [101-remove_char_at.py](./101-remove_char_at.py) file contains a function that creates a copy of the string, removing the character at the position `n` (not the Python way, the “C array index”).
+
+**Task-16**: The [102-magic_calculation.py](./102-magic_calculation.py) file contains Python function `def magic_calculation(a, b, c):` that does exactly the same as the following Python bytecode:
+```sh
+	  3           0 LOAD_FAST                0 (a)
+		      3 LOAD_FAST                1 (b)
+		      6 COMPARE_OP               0 (<)
+		      9 POP_JUMP_IF_FALSE       16
+
+	  4          12 LOAD_FAST                2 (c)
+		     15 RETURN_VALUE
+
+	  5     >>   16 LOAD_FAST                2 (c)
+		     19 LOAD_FAST                1 (b)
+		     22 COMPARE_OP               4 (>)
+		     25 POP_JUMP_IF_FALSE       36
+
+	  6          28 LOAD_FAST                0 (a)
+		     31 LOAD_FAST                1 (b)
+		     34 BINARY_ADD
+		     35 RETURN_VALUE
+
+	  7     >>   36 LOAD_FAST                0 (a)
+		     39 LOAD_FAST                1 (b)
+		     42 BINARY_MULTIPLY
+		     43 LOAD_FAST                2 (c)
+		     46 BINARY_SUBTRACT
+		     47 RETURN_VALUE
+```
