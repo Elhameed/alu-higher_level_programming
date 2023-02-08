@@ -11,7 +11,7 @@ In this project, I was able to learn about various concepts such as:
 
 The project presented a challenge due to the numerous concepts that needed to be covered. However, the experience was also intriguing as I discovered several fascinating concepts in Python.
 
-## Function Prototypes :floppy_disk:
+## Function Prototypes :file_folder:
 
 Prototypes for functions written in this project:
 
