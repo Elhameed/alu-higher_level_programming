@@ -11,7 +11,20 @@ In this project, I was able to learn about various concepts such as:
 
 The project presented a challenge due to the numerous concepts that needed to be covered. However, the experience was also intriguing as I discovered several fascinating concepts in Python.
 
+## Function Prototypes :floppy_disk:
 
+Prototypes for functions written in this project:
+
+| File                       | Prototype                                               |
+| -------------------------- | ------------------------------------------------------- |
+| `7-islower.py`             | `def islower(c):`                                       |
+| `8-uppercase.py`           | `def uppercase(str):`                                   |
+| `9-print_last_digit.py`    | `def print_last_digit(number):`                         |
+| `10-add.py`                | `def add(a, b):`                                        |
+| `11-pow.py`                | `def pow(a, b):`                                        |
+| `12-fizzbuzz.py`           | `def fizzbuzz():`                                       |
+| `101-remove_char_at.py`    | `def remove_char_at(str, n):`                           |
+| `102-magic_calculation.py` | `def magic_calculation(a, b, c):`                       |
 
 ## Tasks :page_with_curl:
 
