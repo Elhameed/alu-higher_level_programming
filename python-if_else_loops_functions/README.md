@@ -11,6 +11,8 @@ In this project, I was able to learn about various concepts such as:
 
 The project presented a challenge due to the numerous concepts that needed to be covered. However, the experience was also intriguing as I discovered several fascinating concepts in Python.
 
+
+
 ## Tasks :page_with_curl:
 
 **Task-0**: The [0-positive_or_negative.py](./0-positive_or_negative.py) file contains an update to the [source code](https://github.com/holbertonschool/0x01.py/blob/master/0-positive_or_negative_py) that prints whether the number stored in the variable `number` is positive or negative.
@@ -72,8 +74,8 @@ The project presented a challenge due to the numerous concepts that needed to be
 **Task-12**: The [11-pow.py](./11-pow.py) file contains a function that computes `a` to the power of `b` and return the value.
 
 **Task-13**: The [12-fizzbuzz.py](./12-fizzbuzz.py) file contains a function that prints the numbers from 1 to 100 separated by a space.
-- For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`.
-- For numbers which are multiples of both three and five print `FizzBuzz`.
+	* For multiples of three print `Fizz` instead of the number and for multiples of five print `Buzz`.
+	* For numbers which are multiples of both three and five print `FizzBuzz`.
 
 **Task-14**: The [100-print_tebahpla.py](./100-print_tebahpla.py) file contains a program that prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (`z` in lowercase and `Y` in uppercase) , not followed by a new line.
 
