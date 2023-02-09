@@ -1,4 +1,4 @@
-#  Python - Hello, World
+#  Python - Hello, World.
 
 This directory contains task projects on the basic introduction to python programming language.
 
