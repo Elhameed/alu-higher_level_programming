@@ -6,6 +6,7 @@ This repository consists of all the Python projects done for the ALU Software En
 
 * [Python - Hello, World](python-hello_world)
 * [Python - if/else, loops, functions](./python-if_else_loops_functions)
+* [Python - import & modules](./python-import_modules)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
