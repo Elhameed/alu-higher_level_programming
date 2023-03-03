@@ -2,6 +2,10 @@
 
 In this project, I was able to learn about the awesomeness of Python programming and various related concepts such as importing functions from another file, using them in your code, creating modules, using the built-in function `dir()`, preventing code from being executed when imported, and using command-line arguments with Python programs.
 
+## __pycache__ :file_folder:
+
+The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution. When a module is imported for the first time, Python creates a bytecode file with the same name as the module and stores it in the [__pycache__](./__pycache__) directory. If the source code is modified, the bytecode is regenerated to reflect the changes.
+
 ## Tasks :page_with_curl:
 
 **Task-0**: The [0-add.py](./0-add.py) file contains a program that imports the function `def add(a, b):` from the file [add_0.py](./add_0.py) and prints the result of the addition `1 + 2 = 3`
