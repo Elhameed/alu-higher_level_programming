@@ -2,9 +2,9 @@
 
 In this project, I was able to learn about the awesomeness of Python programming and various related concepts such as importing functions from another file, using them in your code, creating modules, using the built-in function `dir()`, preventing code from being executed when imported, and using command-line arguments with Python programs.
 
-## __pycache__ :file_folder:
+## __Pycache__ :file_folder:
 
-The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution. When a module is imported for the first time, Python creates a bytecode file with the same name as the module and stores it in the [__pycache__](./__pycache__) directory. If the source code is modified, the bytecode is regenerated to reflect the changes.
+The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution.
 
 ## Tasks :page_with_curl:
 
