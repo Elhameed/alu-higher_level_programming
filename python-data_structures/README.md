@@ -39,59 +39,16 @@ Prototypes for functions written in this project:
 
 **Task-5**: The [5-no_c.py](./5-no_c.py) file contains a function that removes all characters `c` and `C` from a string.
 
-**Task-6**: The [100-my_calculator.py](./100-my_calculator.py) file contains a program that imports all functions from the file [calculator_1.py](./calculator_1.py) and handles basic operations.
+**Task-6**: The [6-print_matrix_integer.py](./6-print_matrix_integer.py) file contains a function that prints a matrix of integers.
 
-**Task-7**: The [101-easy_print.py](./101-easy_print.py) file contains a program that prints `#pythoniscool`, followed by a new line, in the standard output without using `print` or `eval` or `open` or `import sys` in the file.
+**Task-7**: The [7-add_tuple.py](./7-add_tuple.py) file contains a function that adds 2 tuples.
 
-**Task-8**: The [102-magic_calculation.py](./102-magic_calculation.py) file contains a Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
-```sh
- 3           0 LOAD_CONST               1 (0)
-              3 LOAD_CONST               2 (('add', 'sub'))
-              6 IMPORT_NAME              0 (magic_calculation_102)
-              9 IMPORT_FROM              1 (add)
-             12 STORE_FAST               2 (add)
-             15 IMPORT_FROM              2 (sub)
-             18 STORE_FAST               3 (sub)
-             21 POP_TOP
+**Task-8**: The [8-multiple_returns.py](./8-multiple_returns.py) file contains a function that returns a tuple with the length of a string and its first character.
 
-  4          22 LOAD_FAST                0 (a)
-             25 LOAD_FAST                1 (b)
-             28 COMPARE_OP               0 (<)
-             31 POP_JUMP_IF_FALSE       94
+**Task-9**: The [9-max_integer.py](./9-max_integer.py) file contains a function that finds the biggest integer of a list.
 
-  5          34 LOAD_FAST                2 (add)
-             37 LOAD_FAST                0 (a)
-             40 LOAD_FAST                1 (b)
-             43 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-             46 STORE_FAST               4 (c)
+**Task-10**: The [10-divisible_by_2.py](./10-divisible_by_2.py) file contains a function that finds all multiples of 2 in a list.
 
-  6          49 SETUP_LOOP              38 (to 90)
-             52 LOAD_GLOBAL              3 (range)
-             55 LOAD_CONST               3 (4)
-             58 LOAD_CONST               4 (6)
-             61 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-             64 GET_ITER
-        >>   65 FOR_ITER                21 (to 89)
-             68 STORE_FAST               5 (i)
+**Task-11**: The [11-delete_at.py](./11-delete_at.py) file contains a function that deletes the item at a specific position in a list.
 
-  7          71 LOAD_FAST                2 (add)
-             74 LOAD_FAST                4 (c)
-             77 LOAD_FAST                5 (i)
-             80 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-             83 STORE_FAST               4 (c)
-             86 JUMP_ABSOLUTE           65
-        >>   89 POP_BLOCK
-
-  8     >>   90 LOAD_FAST                4 (c)
-             93 RETURN_VALUE
-
- 10     >>   94 LOAD_FAST                3 (sub)
-             97 LOAD_FAST                0 (a)
-            100 LOAD_FAST                1 (b)
-            103 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-            106 RETURN_VALUE
-            107 LOAD_CONST               0 (None)
-            110 RETURN_VALUE
-```
-
-**Task-9**: The [103-fast_alphabet.py](./103-fast_alphabet.py) file contains a program that prints the alphabet in uppercase, followed by a new line.
+**Task-12**: The [12-switch.py](./12-switch.py) file contains a function that switches the value of `a` and `b`
