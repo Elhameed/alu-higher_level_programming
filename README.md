@@ -14,4 +14,4 @@ This repository consists of all the Python projects done for the ALU Software En
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
 ## Author 
-* [Abdulhameed Teniola Ajani](https://twitter.com/teniola_ajani)
+* [Abdulhameed Teniola Ajani](https://www.linkedin.com/in/abdulhameed-ajani/)
