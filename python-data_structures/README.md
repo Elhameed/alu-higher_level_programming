@@ -1,6 +1,6 @@
-#  Python - import & modules
+#  Python - Data Structures: Lists, Tuples
 
-In this project, I was able to learn about the awesomeness of Python programming and various related concepts such as importing functions from another file, using them in your code, creating modules, using the built-in function `dir()`, preventing code from being executed when imported, and using command-line arguments with Python programs.
+In this learning experience, I have learned how to work with lists and strings, use common list methods, use lists as stacks and queues, use list comprehensions to create new lists, and work with tuples. Additionally, I have learned about sequences, tuple packing and unpacking, and the del statement for deleting objects or elements from a data structure.
 
 ## __Pycache__ :file_folder:
 
@@ -10,16 +10,20 @@ The [__pycache__](./__pycache__) directory is a directory created by Python3 to 
 
 Prototypes for functions written in this project:
 
-| File                       | Prototype                                               |
-| -------------------------- | ------------------------------------------------------- |
-| `7-islower.py`             | `def islower(c):`                                       |
-| `8-uppercase.py`           | `def uppercase(str):`                                   |
-| `9-print_last_digit.py`    | `def print_last_digit(number):`                         |
-| `10-add.py`                | `def add(a, b):`                                        |
-| `11-pow.py`                | `def pow(a, b):`                                        |
-| `12-fizzbuzz.py`           | `def fizzbuzz():`                                       |
-| `101-remove_char_at.py`    | `def remove_char_at(str, n):`                           |
-| `102-magic_calculation.py` | `def magic_calculation(a, b, c):`                       |
+| File                                     | Prototype                                               |
+| ---------------------------------------- | ------------------------------------------------------- |
+| `0-print_list_integer.py`                | `def print_list_integer(my_list=[]):`                   |
+| `1-element_at.py`                        | `def element_at(my_list, idx):`                         |
+| `2-replace_in_list.py`                   | `def replace_in_list(my_list, idx, element):`           |
+| `3-print_reversed_list_integer.py`       | `def print_reversed_list_integer(my_list=[]):`          |
+| `4-new_in_list.py`                       | `def new_in_list(my_list, idx, element):`               |
+| `5-no_c.py`                              | `def no_c(my_string):`                                  |
+| `6-print_matrix_integer.py`              | `def print_matrix_integer(matrix=[[]]):`                |
+| `7-add_tuple.py`                         | `def add_tuple(tuple_a=(), tuple_b=()):`                |
+| `8-multiple_returns.py`                  | `def multiple_returns(sentence):`                       |
+| `9-max_integer.py`                       | `def max_integer(my_list=[]):`                          |
+| `10-divisible_by_2.py`                   | `def divisible_by_2(my_list=[]):`                       |
+| `11-delete_at.py`                        | `def delete_at(my_list=[], idx=0):`                     |
 
 ## Tasks :page_with_curl:
 
