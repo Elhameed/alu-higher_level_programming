@@ -8,6 +8,7 @@ This repository consists of all the Python projects done for the ALU Software En
 * [Python - if/else, loops, functions](./python-if_else_loops_functions)
 * [Python - import & modules](./python-import_modules)
 * [Python - Data Structures: Lists, Tuples](./python-data_structures)
+* [Python - More Data Structures: Set, Dictionary](./python-more_data_structures)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
