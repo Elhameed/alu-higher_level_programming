@@ -27,17 +27,17 @@ Prototypes for functions written in this project:
 
 ## Tasks :page_with_curl:
 
-**Task-0**: The [0-add.py](./0-add.py) file contains a program that imports the function `def add(a, b):` from the file [add_0.py](./add_0.py) and prints the result of the addition `1 + 2 = 3`
+**Task-0**: The [0-print_list_integer.py](./0-print_list_integer.py) file contains a function that prints all integers of a list.
 
-**Task-1**: The [1-calculation.py](./1-calculation.py) file contains a program that imports functions from the file [calculator_1.py](./calculator_1.py), does some Maths, and prints the result.
+**Task-1**: The [1-element_at.py](./1-element_at.py) file contains a function that retrieves an element from a list like in C.
 
-**Task-2**: The [2-args.py](./2-args.py) file contains a program that prints the number of and the list of its arguments.
+**Task-2**: The [2-replace_in_list.py](./2-replace_in_list.py) file contains a function that replaces an element of a list at a specific position (like in C).
 
-**Task-3**: The [3-infinite_add.py](./3-infinite_add.py) contains a program that prints the result of the addition of all arguments
+**Task-3**: The [3-print_reversed_list_integer.py](./3-print_reversed_list_integer.py) contains a function that prints all integers of a list, in reverse order.
 
-**Task-4**: The [4-hidden_discovery.py](./4-hidden_discovery.py) contain a program that prints all the names defined by the compiled module `hidden_4.pyc`
+**Task-4**: The [4-new_in_list.py](./4-new_in_list.py) contain a function that replaces an element in a list at a specific position without modifying the original list (like in C).
 
-**Task-5**: The [5-variable_load.py](./5-variable_load.py) file contains a program that imports the variable `a from the file [variable_load_5.py](./variable_load_5.py) and prints its value.
+**Task-5**: The [5-no_c.py](./5-no_c.py) file contains a function that removes all characters `c` and `C` from a string.
 
 **Task-6**: The [100-my_calculator.py](./100-my_calculator.py) file contains a program that imports all functions from the file [calculator_1.py](./calculator_1.py) and handles basic operations.
 
