@@ -6,6 +6,21 @@ In this project, I was able to learn about the awesomeness of Python programming
 
 The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution.
 
+## Function Prototypes 🛠️
+
+Prototypes for functions written in this project:
+
+| File                       | Prototype                                               |
+| -------------------------- | ------------------------------------------------------- |
+| `7-islower.py`             | `def islower(c):`                                       |
+| `8-uppercase.py`           | `def uppercase(str):`                                   |
+| `9-print_last_digit.py`    | `def print_last_digit(number):`                         |
+| `10-add.py`                | `def add(a, b):`                                        |
+| `11-pow.py`                | `def pow(a, b):`                                        |
+| `12-fizzbuzz.py`           | `def fizzbuzz():`                                       |
+| `101-remove_char_at.py`    | `def remove_char_at(str, n):`                           |
+| `102-magic_calculation.py` | `def magic_calculation(a, b, c):`                       |
+
 ## Tasks :page_with_curl:
 
 **Task-0**: The [0-add.py](./0-add.py) file contains a program that imports the function `def add(a, b):` from the file [add_0.py](./add_0.py) and prints the result of the addition `1 + 2 = 3`
