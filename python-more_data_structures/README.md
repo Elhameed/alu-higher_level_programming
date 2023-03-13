@@ -67,3 +67,9 @@ Prototypes for functions written in this project:
 **Task-11**: The [11-multiply_list_map.py](./11-multiply_list_map.py) file contains a function that returns a list with all values multiplied by a number without using any loops.
 
 **Task-12**: The [12-roman_to_int.py](./12-roman_to_int.py) file contains a function that converts a Roman numeral to an integer.
+
+**Task-13**: The [100-weight_average.py](./100-weight_average.py) file contains a function that returns the weighted average of all integers tuple `(<score>, <weight>)`
+
+**Task-14**: The [101-square_matrix_map.py](./101-square_matrix_map.py) file contains a function that computes the square value of all integers of a matrix using `map`
+
+**Task-15**: The [102-complex_delete.py](./102-complex_delete.py) file contains a function that deletes keys with a specific value in a dictionary.
