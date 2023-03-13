@@ -1,20 +1,13 @@
-#  Python - More Data Structures: Set, Dictionary
+#  Python - Exceptions
 
 In this learning experience, I learnt the following:
-- What are sets and how to use them
-- What are the most common methods of set and how to use them
-- When to use sets versus lists
-- How to iterate into a set
-- What are dictionaries and how to use them
-- When to use dictionaries versus lists or sets
-- What is a key in a dictionary
-- How to iterate over a dictionary
-- What is a lambda function
-- What are the map, reduce and filter functions
-
-## __Pycache__ :file_folder:
-
-The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution.
+- What’s the difference between errors and exceptions
+- What are exceptions and how to use them
+- When do we need to use exceptions
+- How to correctly handle an exception
+- What’s the purpose of catching exceptions
+- How to raise a builtin exception
+- When do we need to implement a clean-up action after an exception
 
 ## Function Prototypes 🛠️
 
@@ -22,54 +15,92 @@ Prototypes for functions written in this project:
 
 | File                                     | Prototype                                               |
 | ---------------------------------------- | ------------------------------------------------------- |
-| `0-square_matrix_simple.py`              | `def square_matrix_simple(matrix=[]):`                  |
-| `1-search_replace.py`                    | `def search_replace(my_list, search, replace):`         |
-| `2-uniq_add.py`                          | `def uniq_add(my_list=[]):`                             |
-| `3-common_elements.py`                   | `def common_elements(set_1, set_2):`                    |
-| `4-only_diff_elements.py`                | `def only_diff_elements(set_1, set_2):`                 |
-| `5-number_keys.py`                       | `def number_keys(a_dictionary):`                        |
-| `6-print_sorted_dictionary.py`           | `def print_sorted_dictionary(a_dictionary):`            |
-| `7-update_dictionary.py`                 | `def update_dictionary(a_dictionary, key, value):`      |
-| `8-simple_delete.py`                     | `def simple_delete(a_dictionary, key=""):`              |
-| `9-multiply_by_2.py`                     | `def multiply_by_2(a_dictionary):`                      |
-| `10-best_score.py`                       | `def best_score(a_dictionary):`                         |
-| `11-multiply_list_map.py`                | `def multiply_list_map(my_list=[], number=0):`          |
-| `12-roman_to_int.py`                     | `def roman_to_int(roman_string):`                       |
-| `100-weight_average.py`                  | `def weight_average(my_list=[]):`                       |
-| `101-square_matrix_map.py`               | `def square_matrix_map(matrix=[]):`                     |
-| `102-complex_delete.py`                  | `def complex_delete(a_dictionary, value):`              |
+| `0-safe_print_list.py`                   | `def safe_print_list(my_list=[], x=0):`                 |
+| `1-safe_print_integer.py`                | `def safe_print_integer(value):`                        |
+| `2-safe_print_list_integers.py`          | `def safe_print_list_integers(my_list=[], x=0):`        |
+| `3-safe_print_division.py`               | `def safe_print_division(a, b):`                        |
+| `4-list_division.py`                     | `def list_division(my_list_1, my_list_2, list_length):` |
+| `5-raise_exception.py`                   | `def raise_exception():`                                |
+| `6-raise_exception_msg.py`               | `def raise_exception_msg(message=""):`                  |
+| `100-safe_print_integer_err.py`          | `def safe_print_integer_err(value):`                    |
+| `101-safe_function.py`                   | `def safe_function(fct, *args):`                        |
+| `102-magic_calculation.py`               | `def magic_calculation(a, b):`                          |
 
 
 ## Tasks :page_with_curl:
 
-**Task-0**: The [0-square_matrix_simple.py](./0-square_matrix_simple.py) file contains a function that computes the square value of all integers of a matrix.
+**Task-0**: The [0-safe_print_list.py](./0-safe_print_list.py) file contains a function that prints `x` elements of a list.
 
-**Task-1**: The [1-search_replace.py](./1-search_replace.py) file contains a function that replaces all occurrences of an element by another in a new list.
+**Task-1**: The [1-safe_print_integer.py](./1-safe_print_integer.py) file contains a function that prints an integer with `"{:d}".format()`.
 
-**Task-2**: The [2-uniq_add.py](./2-uniq_add.py) file contains a function that adds all unique integers in a list (only once for each integer).
+**Task-2**: The [2-safe_print_list_integers.py](./2-safe_print_list_integers.py) file contains a function that prints the first `x` elements of a list and only integers.
 
-**Task-3**: The [3-common_elements.py](./3-common_elements.py) contains a function that returns a set of common elements in two sets.
+**Task-3**: The [3-safe_print_division.py](./3-safe_print_division.py) contains a function that divides 2 integers and prints the result.
 
-**Task-4**: The [4-only_diff_elements.py](./4-only_diff_elements.py) contain a function that returns a set of all elements present in only one set.
+**Task-4**: The [4-list_division.py](./4-list_division.py) contain a function that divides element by element 2 lists.
 
-**Task-5**: The [5-number_keys.py](./5-number_keys.py) file contains a function that returns the number of keys in a dictionary.
+**Task-5**: The [5-raise_exception.py](./5-raise_exception.py) file contains a function that raises a type exception.
 
-**Task-6**: The [6-print_sorted_dictionary.py](./6-print_sorted_dictionary.py) file contains a function that prints a dictionary by ordered keys.
+**Task-6**: The [6-raise_exception_msg.py](./6-raise_exception_msg.py) file contains a function that raises a name exception with a message.
 
-**Task-7**: The [7-update_dictionary.py](./7-update_dictionary.py) file contains a function that replaces or adds key/value in a dictionary.
+**Task-7**: The [100-safe_print_integer_err.py](./100-safe_print_integer_err.py) file contains a function that prints an integer.
 
-**Task-8**: The [8-simple_delete.py](./8-simple_delete.py) file contains a function that deletes a key in a dictionary.
+**Task-8**: The [101-safe_function.py](./101-safe_function.py) file contains a function that executes a function safely.
 
-**Task-9**: The [9-multiply_by_2.py](./9-multiply_by_2.py) file contains a function that returns a new dictionary with all values multiplied by 2
+**Task-9**: The [102-magic_calculation.py](./102-magic_calculation.py) file contains a Python function that does exactly the same as the following Python bytecode:
+```sh
+ 3           0 LOAD_CONST               1 (0)
+              3 STORE_FAST               2 (result)
 
-**Task-10**: The [10-best_score.py](./10-best_score.py) file contains a function that returns a key with the biggest integer value.
+  4           6 SETUP_LOOP              94 (to 103)
+              9 LOAD_GLOBAL              0 (range)
+             12 LOAD_CONST               2 (1)
+             15 LOAD_CONST               3 (3)
+             18 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
+             21 GET_ITER
+        >>   22 FOR_ITER                77 (to 102)
+             25 STORE_FAST               3 (i)
 
-**Task-11**: The [11-multiply_list_map.py](./11-multiply_list_map.py) file contains a function that returns a list with all values multiplied by a number without using any loops.
+  5          28 SETUP_EXCEPT            49 (to 80)
 
-**Task-12**: The [12-roman_to_int.py](./12-roman_to_int.py) file contains a function that converts a Roman numeral to an integer.
+  6          31 LOAD_FAST                3 (i)
+             34 LOAD_FAST                0 (a)
+             37 COMPARE_OP               4 (>)
+             40 POP_JUMP_IF_FALSE       58
 
-**Task-13**: The [100-weight_average.py](./100-weight_average.py) file contains a function that returns the weighted average of all integers tuple `(<score>, <weight>)`
+  7          43 LOAD_GLOBAL              1 (Exception)
+             46 LOAD_CONST               4 ('Too far')
+             49 CALL_FUNCTION            1 (1 positional, 0 keyword pair)
+             52 RAISE_VARARGS            1
+             55 JUMP_FORWARD            18 (to 76)
 
-**Task-14**: The [101-square_matrix_map.py](./101-square_matrix_map.py) file contains a function that computes the square value of all integers of a matrix using `map`
+  9     >>   58 LOAD_FAST                2 (result)
+             61 LOAD_FAST                0 (a)
+             64 LOAD_FAST                1 (b)
+             67 BINARY_POWER
+             68 LOAD_FAST                3 (i)
+             71 BINARY_TRUE_DIVIDE
+             72 INPLACE_ADD
+             73 STORE_FAST               2 (result)
+        >>   76 POP_BLOCK
+             77 JUMP_ABSOLUTE           22
 
-**Task-15**: The [102-complex_delete.py](./102-complex_delete.py) file contains a function that deletes keys with a specific value in a dictionary.
+ 10     >>   80 POP_TOP
+             81 POP_TOP
+             82 POP_TOP
+
+ 11          83 LOAD_FAST                1 (b)
+             86 LOAD_FAST                0 (a)
+             89 BINARY_ADD
+             90 STORE_FAST               2 (result)
+
+ 12          93 BREAK_LOOP
+             94 POP_EXCEPT
+             95 JUMP_ABSOLUTE           22
+             98 END_FINALLY
+             99 JUMP_ABSOLUTE           22
+        >>  102 POP_BLOCK
+
+ 13     >>  103 LOAD_FAST                2 (result)
+            106 RETURN_VALUE
+```
