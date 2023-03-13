@@ -23,17 +23,22 @@ Prototypes for functions written in this project:
 | File                                     | Prototype                                               |
 | ---------------------------------------- | ------------------------------------------------------- |
 | `0-square_matrix_simple.py`              | `def square_matrix_simple(matrix=[]):`                  |
-| `1-element_at.py`                        | `def element_at(my_list, idx):`                         |
-| `2-replace_in_list.py`                   | `def replace_in_list(my_list, idx, element):`           |
-| `3-print_reversed_list_integer.py`       | `def print_reversed_list_integer(my_list=[]):`          |
-| `4-new_in_list.py`                       | `def new_in_list(my_list, idx, element):`               |
-| `5-no_c.py`                              | `def no_c(my_string):`                                  |
-| `6-print_matrix_integer.py`              | `def print_matrix_integer(matrix=[[]]):`                |
-| `7-add_tuple.py`                         | `def add_tuple(tuple_a=(), tuple_b=()):`                |
-| `8-multiple_returns.py`                  | `def multiple_returns(sentence):`                       |
-| `9-max_integer.py`                       | `def max_integer(my_list=[]):`                          |
-| `10-divisible_by_2.py`                   | `def divisible_by_2(my_list=[]):`                       |
-| `11-delete_at.py`                        | `def delete_at(my_list=[], idx=0):`                     |
+| `1-search_replace.py`                    | `def search_replace(my_list, search, replace):`         |
+| `2-uniq_add.py`                          | `def uniq_add(my_list=[]):`                             |
+| `3-common_elements.py`                   | `def common_elements(set_1, set_2):`                    |
+| `4-only_diff_elements.py`                | `def only_diff_elements(set_1, set_2):`                 |
+| `5-number_keys.py`                       | `def number_keys(a_dictionary):`                        |
+| `6-print_sorted_dictionary.py`           | `def print_sorted_dictionary(a_dictionary):`            |
+| `7-update_dictionary.py`                 | `def update_dictionary(a_dictionary, key, value):`      |
+| `8-simple_delete.py`                     | `def simple_delete(a_dictionary, key=""):`              |
+| `9-multiply_by_2.py`                     | `def multiply_by_2(a_dictionary):`                      |
+| `10-best_score.py`                       | `def best_score(a_dictionary):`                         |
+| `11-multiply_list_map.py`                | `def multiply_list_map(my_list=[], number=0):`          |
+| `12-roman_to_int.py`                     | `def roman_to_int(roman_string):`                       |
+| `100-weight_average.py`                  | `def weight_average(my_list=[]):`                       |
+| `101-square_matrix_map.py`               | `def square_matrix_map(matrix=[]):`                     |
+| `102-complex_delete.py`                  | `def complex_delete(a_dictionary, value):`              |
+
 
 ## Tasks :page_with_curl:
 
