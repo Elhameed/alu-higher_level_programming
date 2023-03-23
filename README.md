@@ -10,8 +10,11 @@ This repository consists of all the Python projects done for the ALU Software En
 * [Python - Data Structures: Lists, Tuples](./python-data_structures)
 * [Python - More Data Structures: Set, Dictionary](./python-more_data_structures)
 * [Python - Exceptions](./python-exceptions)
+* [Python - Classes and Objects](./python-classes)
+* [Python - More Classes and Objects](./python-more_classes)
+* [Python - Everything is object](./python-everything_is_object)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
 ## Author 
-* [Abdulhameed Teniola Ajani](https://www.linkedin.com/in/abdulhameed-ajani/)
+* [Abdulhameed Teniola Ajani](https://www.linkedin.com/in/abdulhameed-ajani/) 
