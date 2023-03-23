@@ -1,5 +1,5 @@
 ![img](https://start.alueducation.com/resource/1568810909000/AluLogoForAdmissions)
-
+...
 # ALU Higher Level Programming
 
 This repository consists of all the Python projects done for the ALU Software Engineering program. Below are the projects I have worked on:
