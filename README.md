@@ -13,6 +13,7 @@ This repository consists of all the Python projects done for the ALU Software En
 * [Python - Classes and Objects](./python-classes)
 * [Python - More Classes and Objects](./python-more_classes)
 * [Python - Everything is object](./python-everything_is_object)
+* [Python - Inheritance](./2-is_same_class.py)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
