@@ -1,5 +1,5 @@
 ![img](https://start.alueducation.com/resource/1568810909000/AluLogoForAdmissions)
-...
+
 # ALU Higher Level Programming
 
 This repository consists of all the Python projects done for the ALU Software Engineering program. Below are the projects I have worked on:
@@ -14,6 +14,7 @@ This repository consists of all the Python projects done for the ALU Software En
 * [Python - More Classes and Objects](./python-more_classes)
 * [Python - Everything is object](./python-everything_is_object)
 * [Python - Inheritance](./python-inheritance)
+* [Python - Input/Output](./python-input_output)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
