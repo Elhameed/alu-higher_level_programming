@@ -16,6 +16,8 @@ This repository consists of all the Python projects done for the ALU Software En
 * [Python - Inheritance](./python-inheritance)
 * [Python - Input/Output](./python-input_output)
 * [SQL - Introduction](./SQL_introduction)
+* [SQL - More queries](./SQL_more_queries)
+* [Python - Network #0](./python-network_0)
 
 - I am commited to continuosly updating this repo with my learning progresses with hands-on projects as listed above.
 
