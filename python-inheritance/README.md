@@ -17,7 +17,9 @@ In this learning experience, I have learned about the following:
 
 The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution.
 
+## Test :file_folder:
 
+The [test](./test/) directory is a directory that contains automated tests for the shell scripts of each problem in this repository.
 
 ## Tasks :page_with_curl:
 
