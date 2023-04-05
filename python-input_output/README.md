@@ -14,10 +14,6 @@ In this learning experience, I have learned about the following:
 - How to convert a Python data structure to a JSON string
 - How to convert a JSON string to a Python data structure
 
-## __Pycache__ :file_folder:
-
-The [__pycache__](./__pycache__) directory is a directory created by Python3 to store compiled bytecode files, which are generated to improve the performance of Python code execution.
-
 ## Function Prototypes 🛠️
 
 Prototypes for functions written in this project:
