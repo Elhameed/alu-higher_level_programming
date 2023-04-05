@@ -21,6 +21,20 @@ The [__pycache__](./__pycache__) directory is a directory created by Python3 to 
 
 The [test](./test/) directory is a directory that contains automated tests for the shell scripts of each problem in this repository.
 
+## Function Prototypes 🛠️
+
+Prototypes for functions written in this project:
+
+| File                          | Prototype                                      |
+| ----------------------------- | -----------------------------------------------|
+| `0-lookup.py`                 | `def lookup(obj):`                             |
+| `1-my_list.py`                | `def print_sorted(self):`                      |
+| `2-is_same_class.py`          | `def is_same_class(obj, a_class):`             |
+| `3-is_kind_of_class.py`       | `def is_kind_of_class(obj, a_class):`          |
+| `4-inherits_from.py`          | `def inherits_from(obj, a_class):`             |
+| `6-base_geometry.py`          | `def area(self):`                              |
+| `7-base_geometry.py`          | `def integer_validator(self, name, value):`    |
+
 ## Tasks :page_with_curl:
 
 **Task-0**: The [0-lookup.py](./0-lookup.py) file contains a function that returns the list of available attributes and methods of an object:
