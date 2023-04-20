@@ -15,10 +15,11 @@ def text_indentation(text):
     Returns:
         None
     """
-    if not isinstance(text, str):
+    if type(text) is not str:
         raise TypeError("text must be a string")
 
-    for char in text:
-        print(char, end="")
-        if char in ('.', '?', ':'):
-            print("\n\n", end="")
+    for delim in ".:?":
+        text = (delim + "\n\n").join(
+            [line.strip(" ") for line in text.split(delim)])
+
+    print("{}".format(text), end="")
