@@ -1,0 +1,23 @@
+Test add_integer function
+>>> add_integer(2, 2)
+4
+>>> add_integer(-2, 2)
+0
+>>> add_integer(0, 0)
+0
+>>> add_integer(10)
+108
+>>> add_integer(2.5, 2)
+4
+>>> add_integer(2, 2.5)
+4
+>>> add_integer(2.2, 2.2)
+4
+>>> add_integer(2, "3")
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer or b must be an integer
+>>> add_integer(2, None)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer or b must be an integer
